@@ -8,14 +8,15 @@ Analyze the data and create digestable dataframes and visualizations that helps 
 
 <img src="https://github.com/luisnewmanh/surfs_up/blob/main/resources/year_temps.PNG">
 
-### Historic June Temperatures
+### Historic June vs December Temperatures
 
-<img src="https://github.com/luisnewmanh/surfs_up/blob/main/resources/june_temps.PNG">
+<img src="https://github.com/luisnewmanh/surfs_up/blob/main/resources/june_temps.PNG">  vs  <img src="https://github.com/luisnewmanh/surfs_up/blob/main/resources/december_temps.PNG">
 
-### Historic December Temperatures
-
-<img src="https://github.com/luisnewmanh/surfs_up/blob/main/resources/december_temps.PNG">
-
-There is a bulleted list that addresses the three key differences in weather between June and December.
+- On average there is a 3.9 degrees drop in December compared to June; on the same token there is more temperature variation in December.
+- It can be seen that the minimum temperature is 56 degrees in December as compared to 64 degrees in June, it would be interesting to check at which time this minimum temperature was captured.
+- During December 75% of the time there will be temperatures over 69 degrees, while 25% of the time during June they will be over 73 degrees 
 ## Summary
-There is a high-level summary of the results and there are two additional queries to perform to gather more weather data for June and December. (5 pt)
+After analyzing June and December temperatures it can be said that a surf and ice cream shop in Oahu is a low risk investment. Further information is needed to complete a well rounded analysis, is December the coldest month? What about the precipitation? 
+
+1. A historic temperature average for each month to determine the coldest month, followed by a temperature summary.
+2. A full evaluation of the precipitation should be done, understanding if it is save to surf under precipitating conditions will round up the analysis.
